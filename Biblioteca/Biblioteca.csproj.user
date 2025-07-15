@@ -13,6 +13,9 @@
     <Compile Update="frmGestionEditorial.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="frmGestionLectores.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="frmLibros.cs">
       <SubType>Form</SubType>
     </Compile>

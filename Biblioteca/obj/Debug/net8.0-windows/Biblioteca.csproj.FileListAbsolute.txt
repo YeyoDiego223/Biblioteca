@@ -67,3 +67,5 @@ C:\Users\flore\source\repos\Biblioteca\Biblioteca\obj\Debug\net8.0-windows\Bibli
 C:\Users\flore\source\repos\Biblioteca\Biblioteca\obj\Debug\net8.0-windows\ref\Biblioteca.dll
 C:\Users\flore\source\repos\Biblioteca\Biblioteca\obj\Debug\net8.0-windows\Biblioteca.frmGestionCategoria.resources
 C:\Users\flore\source\repos\Biblioteca\Biblioteca\obj\Debug\net8.0-windows\Biblioteca.frmGestionEditorial.resources
+C:\Users\flore\source\repos\Biblioteca\Biblioteca\obj\Debug\net8.0-windows\Biblioteca.frmGestionLectores.resources
+C:\Users\flore\source\repos\Biblioteca\Biblioteca\obj\Debug\net8.0-windows\Biblioteca.sourcelink.json

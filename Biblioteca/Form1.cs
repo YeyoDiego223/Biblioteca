@@ -22,5 +22,11 @@ namespace Biblioteca
             frmLibros frmLibros = new frmLibros();
             frmLibros.Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            frmGestionLectores frmLectores = new frmGestionLectores();
+            frmLectores.Show();
+        }
     }
 }

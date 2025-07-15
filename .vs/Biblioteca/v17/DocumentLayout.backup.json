@@ -3,16 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\flore\\source\\repos\\Biblioteca\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{423BB47E-3621-4900-A9F1-174848CE2F2A}|Biblioteca\\Biblioteca.csproj|c:\\users\\flore\\source\\repos\\biblioteca\\biblioteca\\frmgestioncategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{423BB47E-3621-4900-A9F1-174848CE2F2A}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\frmgestioncategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{423BB47E-3621-4900-A9F1-174848CE2F2A}|Biblioteca\\Biblioteca.csproj|c:\\users\\flore\\source\\repos\\biblioteca\\biblioteca\\frmgestionlectores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{423BB47E-3621-4900-A9F1-174848CE2F2A}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\frmgestionlectores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{423BB47E-3621-4900-A9F1-174848CE2F2A}|Biblioteca\\Biblioteca.csproj|c:\\users\\flore\\source\\repos\\biblioteca\\biblioteca\\frmgestioncategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{423BB47E-3621-4900-A9F1-174848CE2F2A}|Biblioteca\\Biblioteca.csproj|c:\\users\\flore\\source\\repos\\biblioteca\\biblioteca\\frmgestionlectores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{423BB47E-3621-4900-A9F1-174848CE2F2A}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\frmgestionlectores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{423BB47E-3621-4900-A9F1-174848CE2F2A}|Biblioteca\\Biblioteca.csproj|c:\\users\\flore\\source\\repos\\biblioteca\\biblioteca\\frmgestionlectores.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{423BB47E-3621-4900-A9F1-174848CE2F2A}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\frmgestionlectores.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{423BB47E-3621-4900-A9F1-174848CE2F2A}|Biblioteca\\Biblioteca.csproj|c:\\users\\flore\\source\\repos\\biblioteca\\biblioteca\\frmgestionautores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{423BB47E-3621-4900-A9F1-174848CE2F2A}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\frmgestionautores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{423BB47E-3621-4900-A9F1-174848CE2F2A}|Biblioteca\\Biblioteca.csproj|c:\\users\\flore\\source\\repos\\biblioteca\\biblioteca\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{423BB47E-3621-4900-A9F1-174848CE2F2A}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{423BB47E-3621-4900-A9F1-174848CE2F2A}|Biblioteca\\Biblioteca.csproj|c:\\users\\flore\\source\\repos\\biblioteca\\biblioteca\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{423BB47E-3621-4900-A9F1-174848CE2F2A}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{423BB47E-3621-4900-A9F1-174848CE2F2A}|Biblioteca\\Biblioteca.csproj|C:\\Users\\flore\\source\\repos\\Biblioteca\\biblioteca\\frmgestioncategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{423BB47E-3621-4900-A9F1-174848CE2F2A}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\frmgestioncategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{423BB47E-3621-4900-A9F1-174848CE2F2A}|Biblioteca\\Biblioteca.csproj|c:\\users\\flore\\source\\repos\\biblioteca\\biblioteca\\frmgestioneditorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{423BB47E-3621-4900-A9F1-174848CE2F2A}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\frmgestioneditorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{423BB47E-3621-4900-A9F1-174848CE2F2A}|Biblioteca\\Biblioteca.csproj|c:\\users\\flore\\source\\repos\\biblioteca\\biblioteca\\frmgestioncategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{423BB47E-3621-4900-A9F1-174848CE2F2A}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\frmgestioncategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{423BB47E-3621-4900-A9F1-174848CE2F2A}|Biblioteca\\Biblioteca.csproj|c:\\users\\flore\\source\\repos\\biblioteca\\biblioteca\\frmlibros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,76 +66,106 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmGestionLectores.cs",
+              "DocumentMoniker": "C:\\Users\\flore\\source\\repos\\Biblioteca\\Biblioteca\\frmGestionLectores.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\frmGestionLectores.cs",
+              "ToolTip": "C:\\Users\\flore\\source\\repos\\Biblioteca\\Biblioteca\\frmGestionLectores.cs",
+              "RelativeToolTip": "Biblioteca\\frmGestionLectores.cs",
+              "ViewState": "AgIAAD8BAAAAAAAAAIA4wE0BAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T15:39:24.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "frmGestionLectores.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\flore\\source\\repos\\Biblioteca\\Biblioteca\\frmGestionLectores.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\frmGestionLectores.cs",
+              "ToolTip": "C:\\Users\\flore\\source\\repos\\Biblioteca\\Biblioteca\\frmGestionLectores.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Biblioteca\\frmGestionLectores.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T14:55:45.702Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmGestionLectores.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\flore\\source\\repos\\Biblioteca\\Biblioteca\\frmGestionLectores.Designer.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\frmGestionLectores.Designer.cs",
+              "ToolTip": "C:\\Users\\flore\\source\\repos\\Biblioteca\\Biblioteca\\frmGestionLectores.Designer.cs",
+              "RelativeToolTip": "Biblioteca\\frmGestionLectores.Designer.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAnwEMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T17:34:10.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmGestionAutores.cs",
+              "DocumentMoniker": "C:\\Users\\flore\\source\\repos\\Biblioteca\\Biblioteca\\frmGestionAutores.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\frmGestionAutores.cs",
+              "ToolTip": "C:\\Users\\flore\\source\\repos\\Biblioteca\\Biblioteca\\frmGestionAutores.cs",
+              "RelativeToolTip": "Biblioteca\\frmGestionAutores.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T16:00:52.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\flore\\source\\repos\\Biblioteca\\Biblioteca\\Form1.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\Form1.cs",
+              "ToolTip": "C:\\Users\\flore\\source\\repos\\Biblioteca\\Biblioteca\\Form1.cs",
+              "RelativeToolTip": "Biblioteca\\Form1.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA9wCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T14:55:02.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\flore\\source\\repos\\Biblioteca\\Biblioteca\\Form1.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\Form1.cs",
+              "ToolTip": "C:\\Users\\flore\\source\\repos\\Biblioteca\\Biblioteca\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Biblioteca\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T03:58:42.771Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "frmGestionCategoria.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\flore\\source\\repos\\Biblioteca\\Biblioteca\\frmGestionCategoria.cs",
               "RelativeDocumentMoniker": "Biblioteca\\frmGestionCategoria.cs",
               "ToolTip": "C:\\Users\\flore\\source\\repos\\Biblioteca\\Biblioteca\\frmGestionCategoria.cs [Dise\u00F1o]",
               "RelativeToolTip": "Biblioteca\\frmGestionCategoria.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T03:54:19.013Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-07-14T03:54:19.013Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "frmGestionCategoria.cs",
               "DocumentMoniker": "C:\\Users\\flore\\source\\repos\\Biblioteca\\Biblioteca\\frmGestionCategoria.cs",
               "RelativeDocumentMoniker": "Biblioteca\\frmGestionCategoria.cs",
               "ToolTip": "C:\\Users\\flore\\source\\repos\\Biblioteca\\Biblioteca\\frmGestionCategoria.cs",
               "RelativeToolTip": "Biblioteca\\frmGestionCategoria.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAqwEkAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAgwEkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T03:54:21.792Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T03:54:21.792Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\flore\\source\\repos\\Biblioteca\\Biblioteca\\App.config",
-              "RelativeDocumentMoniker": "Biblioteca\\App.config",
-              "ToolTip": "C:\\Users\\flore\\source\\repos\\Biblioteca\\Biblioteca\\App.config",
-              "RelativeToolTip": "Biblioteca\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-07-12T02:47:01.742Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "frmLibros.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\flore\\source\\repos\\Biblioteca\\Biblioteca\\frmLibros.cs",
-              "RelativeDocumentMoniker": "Biblioteca\\frmLibros.cs",
-              "ToolTip": "C:\\Users\\flore\\source\\repos\\Biblioteca\\Biblioteca\\frmLibros.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Biblioteca\\frmLibros.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T02:24:28.116Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmLibros.cs",
-              "DocumentMoniker": "C:\\Users\\flore\\source\\repos\\Biblioteca\\Biblioteca\\frmLibros.cs",
-              "RelativeDocumentMoniker": "Biblioteca\\frmLibros.cs",
-              "ToolTip": "C:\\Users\\flore\\source\\repos\\Biblioteca\\Biblioteca\\frmLibros.cs",
-              "RelativeToolTip": "Biblioteca\\frmLibros.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAkwGYAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T02:24:31.965Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "frmGestionEditorial.cs",
               "DocumentMoniker": "C:\\Users\\flore\\source\\repos\\Biblioteca\\Biblioteca\\frmGestionEditorial.cs",
               "RelativeDocumentMoniker": "Biblioteca\\frmGestionEditorial.cs",
@@ -119,8 +173,42 @@
               "RelativeToolTip": "Biblioteca\\frmGestionEditorial.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAAAgwDsAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T03:47:05.83Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T03:47:05.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\flore\\source\\repos\\Biblioteca\\Biblioteca\\App.config",
+              "RelativeDocumentMoniker": "Biblioteca\\App.config",
+              "ToolTip": "C:\\Users\\flore\\source\\repos\\Biblioteca\\Biblioteca\\App.config",
+              "RelativeToolTip": "Biblioteca\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-07-12T02:47:01.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frmLibros.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\flore\\source\\repos\\Biblioteca\\Biblioteca\\frmLibros.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\frmLibros.cs",
+              "ToolTip": "C:\\Users\\flore\\source\\repos\\Biblioteca\\Biblioteca\\frmLibros.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Biblioteca\\frmLibros.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T02:24:28.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmLibros.cs",
+              "DocumentMoniker": "C:\\Users\\flore\\source\\repos\\Biblioteca\\Biblioteca\\frmLibros.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\frmLibros.cs",
+              "ToolTip": "C:\\Users\\flore\\source\\repos\\Biblioteca\\Biblioteca\\frmLibros.cs",
+              "RelativeToolTip": "Biblioteca\\frmLibros.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAkwGYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T02:24:31.965Z"
             }
           ]
         }
