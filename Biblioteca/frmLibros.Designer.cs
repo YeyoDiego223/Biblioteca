@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLibros));
             label1 = new Label();
             txtTituloLibro = new TextBox();
             label2 = new Label();
@@ -51,9 +52,11 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(58, 75);
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Unispace", 9F, FontStyle.Bold);
+            label1.Location = new Point(26, 80);
             label1.Name = "label1";
-            label1.Size = new Size(110, 20);
+            label1.Size = new Size(152, 18);
             label1.TabIndex = 0;
             label1.Text = "Título del Libro";
             // 
@@ -67,9 +70,11 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(122, 198);
+            label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Unispace", 9F, FontStyle.Bold);
+            label2.Location = new Point(112, 200);
             label2.Name = "label2";
-            label2.Size = new Size(46, 20);
+            label2.Size = new Size(53, 18);
             label2.TabIndex = 2;
             label2.Text = "Autor";
             // 
@@ -83,22 +88,27 @@
             // 
             // btnNuevoAutor
             // 
+            btnNuevoAutor.BackColor = Color.Black;
+            btnNuevoAutor.BackgroundImage = (Image)resources.GetObject("btnNuevoAutor.BackgroundImage");
             btnNuevoAutor.Location = new Point(485, 195);
             btnNuevoAutor.Name = "btnNuevoAutor";
             btnNuevoAutor.Size = new Size(29, 29);
             btnNuevoAutor.TabIndex = 4;
             btnNuevoAutor.Text = "+";
-            btnNuevoAutor.UseVisualStyleBackColor = true;
+            btnNuevoAutor.UseVisualStyleBackColor = false;
             btnNuevoAutor.Click += btnNuevoAutor_Click;
             // 
             // btnGuardarLibro
             // 
-            btnGuardarLibro.Location = new Point(260, 470);
+            btnGuardarLibro.BackColor = Color.Black;
+            btnGuardarLibro.BackgroundImage = (Image)resources.GetObject("btnGuardarLibro.BackgroundImage");
+            btnGuardarLibro.Font = new Font("Unispace", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnGuardarLibro.Location = new Point(255, 470);
             btnGuardarLibro.Name = "btnGuardarLibro";
-            btnGuardarLibro.Size = new Size(94, 29);
+            btnGuardarLibro.Size = new Size(123, 46);
             btnGuardarLibro.TabIndex = 5;
             btnGuardarLibro.Text = "Guardar Libro";
-            btnGuardarLibro.UseVisualStyleBackColor = true;
+            btnGuardarLibro.UseVisualStyleBackColor = false;
             btnGuardarLibro.Click += btnGuardarLibro_Click;
             // 
             // txtISBN
@@ -111,20 +121,24 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(127, 134);
+            label3.BackColor = Color.Transparent;
+            label3.Font = new Font("Unispace", 9F, FontStyle.Bold);
+            label3.Location = new Point(121, 136);
             label3.Name = "label3";
-            label3.Size = new Size(41, 20);
+            label3.Size = new Size(44, 18);
             label3.TabIndex = 6;
             label3.Text = "ISBN";
             // 
             // btnNuevaCategoria
             // 
+            btnNuevaCategoria.BackColor = Color.Black;
+            btnNuevaCategoria.BackgroundImage = (Image)resources.GetObject("btnNuevaCategoria.BackgroundImage");
             btnNuevaCategoria.Location = new Point(485, 251);
             btnNuevaCategoria.Name = "btnNuevaCategoria";
             btnNuevaCategoria.Size = new Size(29, 29);
             btnNuevaCategoria.TabIndex = 10;
             btnNuevaCategoria.Text = "+";
-            btnNuevaCategoria.UseVisualStyleBackColor = true;
+            btnNuevaCategoria.UseVisualStyleBackColor = false;
             btnNuevaCategoria.Click += btnNuevaCategoria_Click;
             // 
             // cmbCategoria
@@ -138,20 +152,24 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(94, 255);
+            label4.BackColor = Color.Transparent;
+            label4.Font = new Font("Unispace", 9F, FontStyle.Bold);
+            label4.Location = new Point(89, 256);
             label4.Name = "label4";
-            label4.Size = new Size(74, 20);
+            label4.Size = new Size(89, 18);
             label4.TabIndex = 8;
             label4.Text = "Categoría";
             // 
             // btnNuevoEditorial
             // 
+            btnNuevoEditorial.BackColor = Color.Black;
+            btnNuevoEditorial.BackgroundImage = (Image)resources.GetObject("btnNuevoEditorial.BackgroundImage");
             btnNuevoEditorial.Location = new Point(485, 305);
             btnNuevoEditorial.Name = "btnNuevoEditorial";
             btnNuevoEditorial.Size = new Size(29, 29);
             btnNuevoEditorial.TabIndex = 13;
             btnNuevoEditorial.Text = "+";
-            btnNuevoEditorial.UseVisualStyleBackColor = true;
+            btnNuevoEditorial.UseVisualStyleBackColor = false;
             btnNuevoEditorial.Click += btnNuevoEditorial_Click;
             // 
             // cmbEditorial
@@ -165,9 +183,11 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(94, 309);
+            label5.BackColor = Color.Transparent;
+            label5.Font = new Font("Unispace", 9F, FontStyle.Bold);
+            label5.Location = new Point(89, 311);
             label5.Name = "label5";
-            label5.Size = new Size(65, 20);
+            label5.Size = new Size(89, 18);
             label5.TabIndex = 11;
             label5.Text = "Editorial";
             // 
@@ -181,9 +201,11 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(112, 368);
+            label6.BackColor = Color.Transparent;
+            label6.Font = new Font("Unispace", 9F, FontStyle.Bold);
+            label6.Location = new Point(116, 366);
             label6.Name = "label6";
-            label6.Size = new Size(56, 20);
+            label6.Size = new Size(62, 18);
             label6.TabIndex = 14;
             label6.Text = "Idioma";
             // 
@@ -197,9 +219,11 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(109, 418);
+            label7.BackColor = Color.Transparent;
+            label7.Font = new Font("Unispace", 9F, FontStyle.Bold);
+            label7.Location = new Point(107, 420);
             label7.Name = "label7";
-            label7.Size = new Size(59, 20);
+            label7.Size = new Size(71, 18);
             label7.TabIndex = 16;
             label7.Text = "Páginas";
             // 
@@ -207,7 +231,8 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 528);
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            ClientSize = new Size(538, 528);
             Controls.Add(txtPaginas);
             Controls.Add(label7);
             Controls.Add(txtIdioma);

@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmGestionLectores));
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             label1 = new Label();
             txtNombre = new TextBox();
             btnCrear = new Button();
@@ -51,9 +53,11 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(121, 35);
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Unispace", 9F, FontStyle.Bold);
+            label1.Location = new Point(94, 36);
             label1.Name = "label1";
-            label1.Size = new Size(64, 20);
+            label1.Size = new Size(62, 18);
             label1.TabIndex = 0;
             label1.Text = "Nombre";
             // 
@@ -68,9 +72,12 @@
             // 
             // btnCrear
             // 
-            btnCrear.Location = new Point(532, 60);
+            btnCrear.BackgroundImage = (Image)resources.GetObject("btnCrear.BackgroundImage");
+            btnCrear.Font = new Font("Unispace", 9F, FontStyle.Bold);
+            btnCrear.ForeColor = Color.Black;
+            btnCrear.Location = new Point(502, 20);
             btnCrear.Name = "btnCrear";
-            btnCrear.Size = new Size(94, 29);
+            btnCrear.Size = new Size(130, 63);
             btnCrear.TabIndex = 2;
             btnCrear.Text = "CREAR";
             btnCrear.UseVisualStyleBackColor = true;
@@ -78,9 +85,12 @@
             // 
             // btnEditar
             // 
-            btnEditar.Location = new Point(532, 95);
+            btnEditar.BackgroundImage = (Image)resources.GetObject("btnEditar.BackgroundImage");
+            btnEditar.Font = new Font("Unispace", 9F, FontStyle.Bold);
+            btnEditar.ForeColor = Color.Black;
+            btnEditar.Location = new Point(502, 86);
             btnEditar.Name = "btnEditar";
-            btnEditar.Size = new Size(94, 29);
+            btnEditar.Size = new Size(130, 63);
             btnEditar.TabIndex = 3;
             btnEditar.Text = "EDITAR";
             btnEditar.UseVisualStyleBackColor = true;
@@ -88,9 +98,12 @@
             // 
             // btnEliminar
             // 
-            btnEliminar.Location = new Point(532, 130);
+            btnEliminar.BackgroundImage = (Image)resources.GetObject("btnEliminar.BackgroundImage");
+            btnEliminar.Font = new Font("Unispace", 9F, FontStyle.Bold);
+            btnEliminar.ForeColor = Color.Black;
+            btnEliminar.Location = new Point(638, 86);
             btnEliminar.Name = "btnEliminar";
-            btnEliminar.Size = new Size(94, 29);
+            btnEliminar.Size = new Size(130, 63);
             btnEliminar.TabIndex = 4;
             btnEliminar.Text = "ELIMINAR";
             btnEliminar.UseVisualStyleBackColor = true;
@@ -107,9 +120,11 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(65, 64);
+            label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Unispace", 9F, FontStyle.Bold);
+            label2.Location = new Point(38, 65);
             label2.Name = "label2";
-            label2.Size = new Size(120, 20);
+            label2.Size = new Size(152, 18);
             label2.TabIndex = 5;
             label2.Text = "Apellido Paterno";
             // 
@@ -124,9 +139,11 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(65, 97);
+            label3.BackColor = Color.Transparent;
+            label3.Font = new Font("Unispace", 9F, FontStyle.Bold);
+            label3.Location = new Point(38, 98);
             label3.Name = "label3";
-            label3.Size = new Size(126, 20);
+            label3.Size = new Size(152, 18);
             label3.TabIndex = 7;
             label3.Text = "Apellido Materno";
             // 
@@ -141,17 +158,29 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(118, 130);
+            label4.BackColor = Color.Transparent;
+            label4.Font = new Font("Unispace", 9F, FontStyle.Bold);
+            label4.Location = new Point(91, 131);
             label4.Name = "label4";
-            label4.Size = new Size(67, 20);
+            label4.Size = new Size(80, 18);
             label4.TabIndex = 9;
             label4.Text = "Teléfono";
             // 
             // dgvLectores
             // 
+            dgvLectores.BackgroundColor = Color.SaddleBrown;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = SystemColors.Control;
+            dataGridViewCellStyle1.Font = new Font("Unispace", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle1.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
+            dgvLectores.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             dgvLectores.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvLectores.Columns.AddRange(new DataGridViewColumn[] { colNombre, colApellidoPaterno, colApellidoMaterno, colTelefono });
-            dgvLectores.Location = new Point(118, 197);
+            dgvLectores.GridColor = Color.Black;
+            dgvLectores.Location = new Point(94, 201);
             dgvLectores.Name = "dgvLectores";
             dgvLectores.RowHeadersWidth = 51;
             dgvLectores.Size = new Size(553, 219);
@@ -188,9 +217,12 @@
             // 
             // btnNuevo
             // 
-            btnNuevo.Location = new Point(532, 25);
+            btnNuevo.BackgroundImage = (Image)resources.GetObject("btnNuevo.BackgroundImage");
+            btnNuevo.Font = new Font("Unispace", 9F, FontStyle.Bold);
+            btnNuevo.ForeColor = Color.Black;
+            btnNuevo.Location = new Point(638, 17);
             btnNuevo.Name = "btnNuevo";
-            btnNuevo.Size = new Size(94, 29);
+            btnNuevo.Size = new Size(130, 63);
             btnNuevo.TabIndex = 12;
             btnNuevo.Text = "NUEVO";
             btnNuevo.UseVisualStyleBackColor = true;
@@ -200,6 +232,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(800, 450);
             Controls.Add(btnNuevo);
             Controls.Add(dgvLectores);

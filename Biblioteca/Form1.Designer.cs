@@ -28,84 +28,69 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            groupBox1 = new GroupBox();
-            button6 = new Button();
-            button5 = new Button();
-            button1 = new Button();
-            groupBox1.SuspendLayout();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            btnPrestamos = new Button();
+            btnLectores = new Button();
+            btnLibros = new Button();
             SuspendLayout();
             // 
-            // label1
+            // btnPrestamos
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(35, 23);
-            label1.Name = "label1";
-            label1.Size = new Size(0, 20);
-            label1.TabIndex = 0;
+            btnPrestamos.BackColor = Color.RosyBrown;
+            btnPrestamos.BackgroundImage = (Image)resources.GetObject("btnPrestamos.BackgroundImage");
+            btnPrestamos.Font = new Font("Unispace", 19.8000011F, FontStyle.Bold);
+            btnPrestamos.Location = new Point(744, 112);
+            btnPrestamos.Name = "btnPrestamos";
+            btnPrestamos.Size = new Size(300, 105);
+            btnPrestamos.TabIndex = 14;
+            btnPrestamos.Text = "PRESTAMOS";
+            btnPrestamos.UseVisualStyleBackColor = false;
+            btnPrestamos.Click += btnPrestamos_Click;
             // 
-            // groupBox1
+            // btnLectores
             // 
-            groupBox1.Controls.Add(button6);
-            groupBox1.Controls.Add(button5);
-            groupBox1.Controls.Add(button1);
-            groupBox1.Controls.Add(label1);
-            groupBox1.Location = new Point(75, 51);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(643, 131);
-            groupBox1.TabIndex = 6;
-            groupBox1.TabStop = false;
-            groupBox1.Text = "BIBLIOTECA";
-            groupBox1.Enter += groupBox1_Enter;
+            btnLectores.BackColor = Color.RosyBrown;
+            btnLectores.BackgroundImage = (Image)resources.GetObject("btnLectores.BackgroundImage");
+            btnLectores.Font = new Font("Unispace", 19.8000011F, FontStyle.Bold);
+            btnLectores.Location = new Point(369, 112);
+            btnLectores.Name = "btnLectores";
+            btnLectores.Size = new Size(300, 105);
+            btnLectores.TabIndex = 13;
+            btnLectores.Text = "LECTORES";
+            btnLectores.UseVisualStyleBackColor = false;
+            btnLectores.Click += btnLectores_Click;
             // 
-            // button6
+            // btnLibros
             // 
-            button6.Location = new Point(400, 58);
-            button6.Name = "button6";
-            button6.Size = new Size(101, 35);
-            button6.TabIndex = 11;
-            button6.Text = "PRESTAMOS";
-            button6.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            button5.Location = new Point(248, 58);
-            button5.Name = "button5";
-            button5.Size = new Size(101, 35);
-            button5.TabIndex = 10;
-            button5.Text = "LECTORES";
-            button5.UseVisualStyleBackColor = true;
-            button5.Click += button5_Click;
-            // 
-            // button1
-            // 
-            button1.Location = new Point(128, 58);
-            button1.Name = "button1";
-            button1.Size = new Size(72, 35);
-            button1.TabIndex = 6;
-            button1.Text = "LIBROS";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            btnLibros.BackColor = Color.RosyBrown;
+            btnLibros.BackgroundImage = (Image)resources.GetObject("btnLibros.BackgroundImage");
+            btnLibros.Font = new Font("Unispace", 19.8000011F, FontStyle.Bold);
+            btnLibros.Location = new Point(31, 112);
+            btnLibros.Name = "btnLibros";
+            btnLibros.Size = new Size(271, 105);
+            btnLibros.TabIndex = 12;
+            btnLibros.Text = "LIBROS";
+            btnLibros.UseVisualStyleBackColor = false;
+            btnLibros.Click += btnLibros_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(groupBox1);
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            ClientSize = new Size(1075, 833);
+            Controls.Add(btnPrestamos);
+            Controls.Add(btnLectores);
+            Controls.Add(btnLibros);
             Name = "Form1";
             Text = "Form1";
-            groupBox1.ResumeLayout(false);
-            groupBox1.PerformLayout();
             ResumeLayout(false);
         }
 
         #endregion
 
-        private Label label1;
-        private GroupBox groupBox1;
-        private Button button1;
-        private Button button6;
-        private Button button5;
+        private Button btnPrestamos;
+        private Button btnLectores;
+        private Button btnLibros;
     }
 }

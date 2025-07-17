@@ -34,7 +34,7 @@ namespace Biblioteca
             var dt = new DataTable();
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
-                string query = "SELECT id_nombre, nombre FROM tbAutor ORDER BY nombre;";
+                string query = "SELECT id_autor, nombre FROM tbAutor ORDER BY nombre;";
                 SqlCommand cmd = new SqlCommand(query, conn);
                 SqlDataAdapter da = new SqlDataAdapter(cmd);
                 da.Fill(dt);
