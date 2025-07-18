@@ -97,7 +97,7 @@ namespace Biblioteca
             }
         }
 
-        
+
         private void btnNuevaCategoria_Click(object sender, EventArgs e)
         {
             using (frmGestionCategoria formCategoria = new frmGestionCategoria())
@@ -114,7 +114,7 @@ namespace Biblioteca
             }
         }
 
-        
+
 
         private void btnNuevoEditorial_Click(object sender, EventArgs e)
         {
@@ -134,15 +134,15 @@ namespace Biblioteca
 
         private void btnGuardarLibro_Click(object sender, EventArgs e)
         {
-          // 1. Validar que los campos no estén vacíos
-          if (string.IsNullOrEmpty(txtTituloLibro.Text) ||          
-                cmbAutores.SelectedValue == null ||
-                cmbCategoria.SelectedValue == null ||
-                cmbEditorial.SelectedValue == null)
-          {
+            // 1. Validar que los campos no estén vacíos
+            if (string.IsNullOrEmpty(txtTituloLibro.Text) ||
+                  cmbAutores.SelectedValue == null ||
+                  cmbCategoria.SelectedValue == null ||
+                  cmbEditorial.SelectedValue == null)
+            {
                 MessageBox.Show("Por favor, complete todos los campos obligatorios (Título, Autor, Categoría, Editorial).", "Datos Incompletos", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
-          }
+            }
 
             // 2. Obtener los valores de los controles
             string titulo = txtTituloLibro.Text;
@@ -190,6 +190,76 @@ namespace Biblioteca
                     }
                 }
             }
-        }        
+        }
+
+        private void txtTituloLibro_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                txtISBN.Focus();
+                e.Handled = true;
+                e.SuppressKeyPress = true;
+            }
+        }
+
+        private void txtISBN_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                cmbAutores.Focus();
+                e.Handled = true;
+                e.SuppressKeyPress = true;
+            }
+        }
+
+        private void cmbAutores_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                cmbCategoria.Focus();
+                e.Handled = true;
+                e.SuppressKeyPress = true;
+            }
+        }
+
+        private void cmbCategoria_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                cmbEditorial.Focus();
+                e.Handled = true;
+                e.SuppressKeyPress = true;
+            }
+        }
+
+        private void cmbEditorial_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                txtIdioma.Focus();
+                e.Handled = true;
+                e.SuppressKeyPress = true;
+            }
+        }
+
+        private void txtIdioma_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                txtPaginas.Focus();
+                e.Handled = true;
+                e.SuppressKeyPress = true;
+            }
+        }
+
+        private void txtPaginas_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                btnGuardarLibro.PerformClick();
+                e.Handled = true;
+                e.SuppressKeyPress = true;
+            }
+        }
     }
 }

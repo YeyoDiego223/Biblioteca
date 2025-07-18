@@ -66,6 +66,7 @@
             txtTituloLibro.Name = "txtTituloLibro";
             txtTituloLibro.Size = new Size(275, 27);
             txtTituloLibro.TabIndex = 1;
+            txtTituloLibro.KeyDown += txtTituloLibro_KeyDown;
             // 
             // label2
             // 
@@ -85,6 +86,7 @@
             cmbAutores.Name = "cmbAutores";
             cmbAutores.Size = new Size(275, 28);
             cmbAutores.TabIndex = 3;
+            cmbAutores.KeyDown += cmbAutores_KeyDown;
             // 
             // btnNuevoAutor
             // 
@@ -117,6 +119,7 @@
             txtISBN.Name = "txtISBN";
             txtISBN.Size = new Size(275, 27);
             txtISBN.TabIndex = 7;
+            txtISBN.KeyDown += txtISBN_KeyDown;
             // 
             // label3
             // 
@@ -148,6 +151,7 @@
             cmbCategoria.Name = "cmbCategoria";
             cmbCategoria.Size = new Size(275, 28);
             cmbCategoria.TabIndex = 9;
+            cmbCategoria.KeyDown += cmbCategoria_KeyDown;
             // 
             // label4
             // 
@@ -179,6 +183,7 @@
             cmbEditorial.Name = "cmbEditorial";
             cmbEditorial.Size = new Size(275, 28);
             cmbEditorial.TabIndex = 12;
+            cmbEditorial.KeyDown += cmbEditorial_KeyDown;
             // 
             // label5
             // 
@@ -197,6 +202,7 @@
             txtIdioma.Name = "txtIdioma";
             txtIdioma.Size = new Size(275, 27);
             txtIdioma.TabIndex = 15;
+            txtIdioma.KeyDown += txtIdioma_KeyDown;
             // 
             // label6
             // 
@@ -215,6 +221,7 @@
             txtPaginas.Name = "txtPaginas";
             txtPaginas.Size = new Size(275, 27);
             txtPaginas.TabIndex = 17;
+            txtPaginas.KeyDown += txtPaginas_KeyDown;
             // 
             // label7
             // 

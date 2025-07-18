@@ -116,6 +116,7 @@
             btnNuevo.TabIndex = 22;
             btnNuevo.Text = "NUEVO";
             btnNuevo.UseVisualStyleBackColor = true;
+            btnNuevo.Click += btnNuevo_Click;
             // 
             // btnEliminar
             // 
@@ -127,6 +128,7 @@
             btnEliminar.TabIndex = 21;
             btnEliminar.Text = "ELIMINAR";
             btnEliminar.UseVisualStyleBackColor = true;
+            btnEliminar.Click += btnEliminar_Click;
             // 
             // btnEditar
             // 
@@ -138,6 +140,7 @@
             btnEditar.TabIndex = 20;
             btnEditar.Text = "EDITAR";
             btnEditar.UseVisualStyleBackColor = true;
+            btnEditar.Click += btnEditar_Click;
             // 
             // btnCrear
             // 
@@ -172,6 +175,7 @@
             cmbLector.Name = "cmbLector";
             cmbLector.Size = new Size(327, 28);
             cmbLector.TabIndex = 26;
+            cmbLector.KeyDown += cmbLector_KeyDown;
             // 
             // dgvPrestamos
             // 
@@ -229,6 +233,7 @@
             cmbLibro.Name = "cmbLibro";
             cmbLibro.Size = new Size(327, 28);
             cmbLibro.TabIndex = 28;
+            cmbLibro.KeyDown += cmbLibro_KeyDown;
             // 
             // frmPrestamos
             // 
