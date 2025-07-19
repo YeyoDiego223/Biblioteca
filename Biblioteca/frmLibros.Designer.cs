@@ -258,7 +258,9 @@
             Controls.Add(label2);
             Controls.Add(txtTituloLibro);
             Controls.Add(label1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "frmLibros";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "frmLibros";
             Load += frmLibros_Load;
             ResumeLayout(false);

@@ -255,7 +255,9 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "frmPrestamos";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "frmPrestamos";
             Load += frmPrestamos_Load;
             ((System.ComponentModel.ISupportInitialize)dgvPrestamos).EndInit();

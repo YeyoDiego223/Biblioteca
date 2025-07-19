@@ -346,7 +346,6 @@ namespace Biblioteca
                 e.SuppressKeyPress = true;
             }
         }
-
         private void txtTelefono_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)

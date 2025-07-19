@@ -82,7 +82,9 @@
             Controls.Add(btnPrestamos);
             Controls.Add(btnLectores);
             Controls.Add(btnLibros);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
             ResumeLayout(false);
         }

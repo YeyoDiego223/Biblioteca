@@ -247,7 +247,9 @@
             Controls.Add(btnCrear);
             Controls.Add(txtNombre);
             Controls.Add(label1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "frmGestionLectores";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "frmGestionLectores";
             Load += frmGestionLectores_Load;
             ((System.ComponentModel.ISupportInitialize)dgvLectores).EndInit();
